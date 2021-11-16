@@ -1,14 +1,16 @@
-<h3>2º Semestre:</h3>
 
-* <B>Projeto GANTT PLANNER - Grupo PHPYTHON:</b>
 
-<b>Objetivo do API:</b>
+# <h3>2º Semestre:</h3>
+
+## <B>Projeto GANTT PLANNER - Grupo PHPYTHON:</b>
+
+## :orange_book:  <b>Desafio da API:</b>
 
 O desenvolvimento desse projeto partiu de uma demanda da empresa Necto, a partir de seu CEO Carlos Eduardo, que era de uma ferramenta que fosse fácil de mexer, que fosse portátil e ao mesmo tempo flexível para auxiliar no planejamento de seus projetos. Manipular um gráfico de Gantt afim de conquistar esses objetivos será o cerne do projeto. Outro fator decisivo para o desenvolvimento é a limitação que outras ferramentas semelhantes à do nosso projeto que impossibilitam ou dificultam muito a visualização da empresa como um todo, afim de conseguir conciliar o desenvolvimento de vários projetos simultaneamente com a distribuição da equipe da melhor forma possível, além de ter uma melhor distribuição dos recursos financeiros.
 
 Para equipes que trabalham em múltiplos projetos e tarefas, que estão insatisfeitas com a dificuldade de fazer um planejamento com as ferramentas de planejamento disponíveis, o Gantt Planner é uma ferramenta visual de planejamento que auxilia o desenvolvimento do seu planejamento, minimizando os riscos de má distribuição de mão de obra, perder prazos e compreensão da evolução das tarefas. Ao contrário de outras ferramentas de planejamento conhecidas, nosso projeto oferece gráficos e relatórios completos e agradáveis com a possibilidade de compartilhamento do gráfico do planejamento como imagem para o time.
 
-<b>Objetivo do Projeto:</b>
+# <b>:dart: Objetivo da Aplicação Gantt Planner:</b>
 
 Para que seja criada uma aplicação que atenda os requisitos solicitados pelo cliente, foram levantadas as seguintes necessidades:
 
@@ -29,35 +31,36 @@ Para que seja criada uma aplicação que atenda os requisitos solicitados pelo c
 
 Com a implementação destas funcionalidades em nosso projeto, foi possível disponibilizar ao cliente uma aplicação capaz de organizar projetos de desenvolvimento, dividido em tarefas e pessoas, com data de conclusão e uma prévia de conclusão de projeto.
 
-**Compatibilidade entre o aplicativo e o mundo real**
+### Compatibilidade entre o aplicativo e o mundo real
 
 1.  A preocupação com o uso de ícones para as principais tarefas gera uma aproximação com o mundo real, trazendo um conforto propiciado pelo natural reconhecimento dos símbolos presentes no dia a dia.
 2.  O mapa centralizado na tela do usuário em referência as televisões que ficam no centro da sala.
 
 ![real-virtual](https://gitlab.com/felipemessibraga/pi-phpython/uploads/3586344651689c3fc8d25e4227eae595/real-virtual.JPG)
-**Controle e liberdade para o usuário**
+### Controle e liberdade para o usuário
 
 1.  O usuário pode navegar entre as versões do projeto, podendo voltar a uma versão anterior caso a atual não o agrade;
 2.  É possível modificar quase todos os atributos dos projetos, tarefas e pessoas;
 3.  O sistema é responsivo, para se adaptar aos diversos monitores e dispositivos;
 
-**Consistência e padronização**
+### Consistência e padronização
 
 1.  Os menus respeitam o mesmo padrão de design;
 2.  Os icones apresentam apenas dois tipos, que variam apenas para evidenciar o seu contexto;
 
-**Prevenção de erros**
+### Prevenção de erros
 
 1.  Existe uma preocupação grande com a prevenção de erros. Todas as decisões que não podem ser desfeitas emitem uma confirmação;
 2.  Os botões respeitam um margem mínima para que não haja cliques "sem querer".
 
 ![botoes](https://gitlab.com/felipemessibraga/pi-phpython/uploads/c2e675a3dbf8fbcab70ccadc283f9cf2/botoes.JPG)
-**Eficiência e flexibilidade de uso**
+
+### Eficiência e flexibilidade de uso
 
 1.  O aplicativo foi pensado para que qualquer pessoa consiga utiliza-lo, por isso apresenta botões com objetivos claros, drag and drop para facilitar a movimentação das tarefas e contraste visual.
 2.  Semelhança na disposição dos menus com ferramentas de uso popular como o Microsoft World;
 
-**Estética e design minimalista**
+### Estética e design minimalista
 
 1.  Deixamos apenas as principais informações em evidência, deixando o maior volume de informações para os relatórios, onde essas informações são idealmente dispostas de forma a não sobrecarregar o visual;
 2.  Sem propagandas ou qualquer informação desnecessária.
@@ -65,45 +68,52 @@ Com a implementação destas funcionalidades em nosso projeto, foi possível dis
 ![wireframe-minimalista](https://gitlab.com/felipemessibraga/pi-phpython/uploads/4de17b52b70036620bf3c0c01800b9a9/wireframe-minimalista.JPG)
 
 
-**Apresentação Final para o Cliente**
+### Caso de Uso:
+
+![image](https://user-images.githubusercontent.com/62898187/141995859-b7d91504-1668-44ec-82d5-02f4d396ed9c.png)
+
+### Apresentação Final para o Cliente
 
 https://www.youtube.com/watch?v=sePaF3FJYkg
 
+
+
 #
 
-<b>Tecnologias Adotadas na Solução:</b>
+## ⚙️ <b>Tecnologias Adotadas na Solução:</b>
+
 -   Python - Motivo: Foi realizada uma votação para a utilização da linguagem Python, pois pensamos em utilizar o framework Django;
 -   PostgreSQL - Motivo: Foi realizada uma votação em que a escolha do banco de dados foi o PostgreSQL devido à todos do grupo já terem uma familiaridade com este SGBD;
 -   HTML - Motivo: Utilização de Front-End na aplicação;
 -   JavaScript e CSS - Motivo: Foi realizado o uso das linguagens Javascript e CSS para a criação do layout e requisições GET, POST, DELETE E PUT para o manuseio de dados vindo do BackEnd. Também foi utilizada a linguagem Javascript para se comunicar com a API do Frappe e utilizar o gráfico de Gantt;
 -   Django (Framework Python) - Motivo: Foi escolhido framework Django devido a sua utilização no projeto anterior e por ter uma maior facilidade na criação de API's;
 -   Maquina Virtual - Motivo: Foram realizadas implementações de código dentro de máquinas virtuais, onde era possível transportar para utilização em computadores da Fatec;
--   GitLab - Motivo: Foi realizada a escolha opr votação do repositório do Gitlab, pois foi este o reposit´roio escolhido no projeto anterior;
+-   GitLab - Motivo: Foi realizada a escolha opr votação do repositório do Gitlab, pois foi este o repositóroio escolhido no projeto anterior;
 -   Whats App - Motivo: Foi escolhido por votação a utilização da ferramenta de mensagem do Whatsapp para comunicação do grupo;
 - Heroku - Motivo: Foi escolhido o Heroku como provedor de hospedagem da aplicação, onde foi possível apresentar a aplicação em servidor público;
 
-<b>Contribuições individuais/pessoais</b>
+## :wrench: <b>Contribuições individuais/pessoais</b>
 
 * Criação de cadastros de Projetos, Tarefas, Pessoas, Distribuição de Pessoas em Tarefas
 
 Exemplo de um GET em todos os projetos cadastrados - Javascript
 
 ```javascript
-function getAllProjects(){  
- xhrGetProjeto = new XMLHttpRequest();
- json = '';
- xhrGetProjeto.open('GET', URLGETPROJETOS, true);
- xhrGetProjeto.onreadystatechange = function(){
- if(xhrGetProjeto.readyState == 4){
-		 if(xhrGetProjeto.status == 200){
-		 json = (JSON.parse(xhrGetProjeto.responseText));
-		 }else if(xhrGetProjeto.status == 404){
-		 }
-	 } 
-	 add_prj_menu_esquerdo(json);
-	 }
-	 xhrGetProjeto.send();
-	}
+1 function getAllProjects(){  
+2 xhrGetProjeto = new XMLHttpRequest();
+3 json = '';
+4 xhrGetProjeto.open('GET', URLGETPROJETOS, true);
+5 xhrGetProjeto.onreadystatechange = function(){
+6 if(xhrGetProjeto.readyState == 4){
+7		 if(xhrGetProjeto.status == 200){
+8		 json = (JSON.parse(xhrGetProjeto.responseText));
+9		 }else if(xhrGetProjeto.status == 404){
+10		 }
+11	 } 
+12	 add_prj_menu_esquerdo(json);
+13	 }
+14	 xhrGetProjeto.send();
+15	}
 ```
 
 Exemplo de cadastro de Projeto, utilizando o método POST - Javascript
@@ -112,33 +122,33 @@ Exemplo de cadastro de Projeto, utilizando o método POST - Javascript
 /*EXEMPLO DE MÉTODO POST PARA A CRIAÇÃO DE UM NOVO PROJETO*/
 
 //UTILIZANDO O MÉTODO NATIVO DO JAVASCRIPT XMLHttpRequest
- xhrPostProjeto = new XMLHttpRequest();
- xhrPostProjeto.open("POST", URLGETPROJETOS, true);
- xhrPostProjeto.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
- xhrPostProjeto.setRequestHeader("X-CSRFToken", csrftoken);
- xhrPostProjeto.setRequestHeader("withCredentials", 'True');
- xhrPostProjeto.onreadystatechange = function(){
- if(xhrPostProjeto.readyState == 4){
-			 if(xhrPostProjeto.status == 201){
-			 getProjeto();
-			 carregaTabelaProjeto();
-			 if((json.length+1) > 1){
-			 habilitaRecuoCodProjeto();
-			 }  
-		 }
-	 }  
- }
- xhrPostProjeto.send(JSON.stringify({
-					 'prj_id': codProjeto,
-					 'prj_nome': nomeProjeto, 
-					 'prj_escopo': escopo, 
-					 'prj_datainicio': dt_inicio,
-					 'prj_prazoentrega': dt_prazo,
-					 'prj_color': cor,
-					 "prj_cost": custo,
-					 "prj_hrs_dev": horas_desen,
-					 "prj_progresso": progressoprojeto
-					 }));
+1 xhrPostProjeto = new XMLHttpRequest();
+2 xhrPostProjeto.open("POST", URLGETPROJETOS, true);
+3 xhrPostProjeto.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+4 xhrPostProjeto.setRequestHeader("X-CSRFToken", csrftoken);
+5 xhrPostProjeto.setRequestHeader("withCredentials", 'True');
+6 xhrPostProjeto.onreadystatechange = function(){
+7 if(xhrPostProjeto.readyState == 4){
+8			 if(xhrPostProjeto.status == 201){
+9			 getProjeto();
+10			 carregaTabelaProjeto();
+11			 if((json.length+1) > 1){
+12			 habilitaRecuoCodProjeto();
+13			 }  
+14		 }
+15	 }  
+16 }
+17 xhrPostProjeto.send(JSON.stringify({
+18					 'prj_id': codProjeto,
+19					 'prj_nome': nomeProjeto, 
+20					 'prj_escopo': escopo, 
+21					 'prj_datainicio': dt_inicio,
+22					 'prj_prazoentrega': dt_prazo,
+23					 'prj_color': cor,
+24					 "prj_cost": custo,
+25					 "prj_hrs_dev": horas_desen,
+26					 "prj_progresso": progressoprojeto
+27					 }));
 ```
 Para a criação deste método foi bastante desafiador obter os conhecimentos necessários de requisições POST, GET, PUT e DELETE e também entender o funcionamento de API's.
 
@@ -146,161 +156,160 @@ Para a criação deste método foi bastante desafiador obter os conhecimentos ne
 
 Exemplo das URL's criadas
 ```javascript
-//**CADASTRO DE PESSOAS*////
-URLGETPESSOAS = 'http://localhost:8000/person/';
-//**CADASTRO DE PROJETOS*////
-URLGETPROJETOS = 'http://localhost:8000/project/';
-//**CADASTRO DE TAREFAS*////
-URLGETTAREFAS = 'http://localhost:8000/task/';
-//**CADASTRO DE DISTRIBUICAO DE PESSOAS EM TAREFAS*////
-URLGETDISTRIBUICAO = 'http://localhost:8000/distribute/';
-//**CADASTRO DE HABILIDADES*////
-URLGETHABILIDADES = 'http://localhost:8000/habilidades/';
-//**CADASTRO DE DISTRIBUICAO DE HABILIDADES*////
-URLGETDISTRHABILIDADES = 'http://localhost:8000/distributehab/';
-
+1 //**CADASTRO DE PESSOAS*////
+2 URLGETPESSOAS = 'http://localhost:8000/person/';
+3 //**CADASTRO DE PROJETOS*////
+4 URLGETPROJETOS = 'http://localhost:8000/project/';
+5 //**CADASTRO DE TAREFAS*////
+6 URLGETTAREFAS = 'http://localhost:8000/task/';
+7 //**CADASTRO DE DISTRIBUICAO DE PESSOAS EM TAREFAS*////
+8 URLGETDISTRIBUICAO = 'http://localhost:8000/distribute/';
+9 //**CADASTRO DE HABILIDADES*////
+10 URLGETHABILIDADES = 'http://localhost:8000/habilidades/';
+11//**CADASTRO DE DISTRIBUICAO DE HABILIDADES*////
+12 URLGETDISTRHABILIDADES = 'http://localhost:8000/distributehab/';
 ```
 * Criação de gráfico GANTT com requisições GET e POST para a Lib do Frappe;
 
 Function criada para carregar o Gráfico de Gantt, contendo todas as informações necessárias cadastradas na aplicação e coletadas através do método GET - Javascript
 
 ```javascript
-recebe_projetoGantt = [];
-recebe_tarefaGantt = []
-
-function carregaGantt(jsonProjetosGantt, jsonTarefasGantt){
-  
- vetor_gantt = [];
-//VALIDA SE O JSON CONTENDO OS DADOS DE PROJETOS ESTÃO VAZIOS
- if(jsonProjetosGantt != null){
- recebe_projetoGantt = jsonProjetosGantt;
- }
- 
-//VALIDA SE O JSON CONTENDO OS DADOS DE PROJETOS ESTÃO VAZIOS
- if(jsonTarefasGantt != null){
- recebe_tarefaGantt = jsonTarefasGantt;
- }
-  
- // FUNÇÃO QUE REALIZARÁ A ANÁLISE DE PROJETOS QUE ESTÃO SELECIONADOS(CHECKED)
- checked_project = [];
- for(i=0;i<recebe_projetoGantt.length;i++){
-  
- if(document.getElementById("cb_prj"+recebe_projetoGantt[i]['prj_id']+"").checked){
- checked_project.push(recebe_projetoGantt[i]['prj_id']);
- }
- }
-  
- vetor_preparaProjetos = [];
- nomeInterdependencia = '';
- if(recebe_projetoGantt != ''){
-	 if(recebe_tarefaGantt != ''){
- 
-		 for(i=0; i<recebe_projetoGantt.length;i++){
-			 for(y=0;y<checked_project.length;y++){
-					 if(checked_project[y] == recebe_projetoGantt[i]['prj_id']){
-  
-  
-						 for(x=0;x<recebe_tarefaGantt.length;x++){
-								 if(recebe_tarefaGantt[x]['trf_id'] == recebe_tarefaGantt[x]['trf_interdependencia']){
-								 nomeInterdependencia = recebe_tarefaGantt[x]['trf_name'];
-									 }
-							 if(recebe_tarefaGantt[x]['fk_prj_id'] == recebe_projetoGantt[i]['prj_id']){
-  
-								 linha = [recebe_tarefaGantt[x]['trf_id'], recebe_tarefaGantt[x]['trf_name'],recebe_tarefaGantt[x]['trf_datainicial'], recebe_tarefaGantt[x]['trf_datafinal'], recebe_tarefaGantt[x]['trf_interdependencia'], recebe_tarefaGantt[x]['trf_progresso'], recebe_projetoGantt[i]['prj_color'] ];
-								 vetor_preparaProjetos.push(linha);
-								 }
-						 }
-				 }
-			 }
-		 }
-  
- if(vetor_preparaProjetos != ''){
- tasks = []; //CRIA VETOR PARA RECEBER JSON
-  
- // REALIZA O ENVIO DOS DADOS DOS PROJETOS PARA A API PARA QUE SEJA RETORNADO OS PARÂMETROS NECESSÁRIOS PARA IMPLEMENTAR NO GRÁFICO
- for(i = 0; i< vetor_preparaProjetos.length;i++){ //FAZ A VARREDURA NO VETOR PARA CRIAR JSON
-						 tasks.push({ //CARREGA O JSON COM AS INFORMAÇÕES NECESSÁRIAS PARA CARREGAR O GRÁFICO GANTT
-						 'id': 'Task'+vetor_preparaProjetos[i][0],
-						 'name': vetor_preparaProjetos[i][1],
-						 'start': vetor_preparaProjetos[i][2],
-						 'end': vetor_preparaProjetos[i][3],
-						 'dependencies': 'Task'+vetor_preparaProjetos[i][4],
-						 'progress': vetor_preparaProjetos[i][5], 
-						 'custom_class': 'tcolor-'+vetor_preparaProjetos[i][0] 
-					 });
-  
- }
- //console.log("TASKS: "+tasks+""); //TESTE DE INTEGRIDADE
- gantt = new Gantt('#gantt', tasks, { 
- on_click: function (task) {
- console.log(task);
- document.querySelector('style').innerHTML = '';
-  
- cores_tarefas();
- },
- on_date_change: function(task, start, end) {
- console.log(recebe_tarefaGantt)
- console.log(task, start, end);
- const trf_id = parseInt(task.id.replace("Task",""))
- const tarefa = recebe_tarefaGantt.filter(_ => _.trf_id == trf_id)[0]
- tarefa.trf_datainicial = start.toISOString().split("T")[0]
- tarefa.trf_datafinal = end.toISOString().split("T")[0]
- putAtualizaTarefa(tarefa)
-  
- },
- on_progress_change: function(task, progress) {
- console.log(task, progress);
- },
- on_view_change: function(mode) {
- console.log(mode);
- },
- custom_popup_html: function(task) {
-  
- // the task object will contain the updated
- // dates and progress value
-  
- //const end_date = task._end.format('MMM D');
- nome_pessoa_gantt = '';
-	 for(i=0;i<recebe_tarefaGantt.length;i++){
-					 if(task.name ==  recebe_tarefaGantt[i]['trf_name']){
-					 dt_final_tarefa = recebe_tarefaGantt[i]['trf_datafinal'];
-					 cod_tarefa_gantt = recebe_tarefaGantt[i]['trf_id'];
-					 for(x=0;x<recebe_distribuicaoGantt.length;x++){
-							 if(recebe_distribuicaoGantt[x]['fk_trf_id'] == cod_tarefa_gantt){
-							 cod_pessoa_gantt = recebe_distribuicaoGantt[x]['fk_pes_id'];
-					  
-									 for(y=0;y<recebe_pessoasGantt.length;y++){
-											 if(cod_pessoa_gantt == recebe_pessoasGantt[y]['pes_id']){
-											 nome_pessoa_gantt = recebe_pessoasGantt[y]['pes_nome'];
-											 }
-									 }
-						 }
-					 }
-					  
- }
- }
- split_dt_final_tarefa = dt_final_tarefa.split('-');
- reverse_dt_final_tarefa = split_dt_final_tarefa.reverse();
- join_dt_final_tarefa = reverse_dt_final_tarefa.join('-');
-  
-  
- return `
- <div class="details-container">
- <label>${task.name}</label>
- <p>Expected to finish by ${join_dt_final_tarefa}</p>
- <p>${task.progress}% completed!</p>
- <p>Pessoa: ${nome_pessoa_gantt} </p>
- </div>
- `;
- }
- });
-  
- cores_tarefas();
-  
- }
- }
-}
-}
+1 recebe_projetoGantt = [];
+2 recebe_tarefaGantt = []
+3
+4 function carregaGantt(jsonProjetosGantt, jsonTarefasGantt){
+5  
+6 vetor_gantt = [];
+7 //VALIDA SE O JSON CONTENDO OS DADOS DE PROJETOS ESTÃO VAZIOS
+8 if(jsonProjetosGantt != null){
+9 recebe_projetoGantt = jsonProjetosGantt;
+10 }
+11 
+12 //VALIDA SE O JSON CONTENDO OS DADOS DE PROJETOS ESTÃO VAZIOS
+13 if(jsonTarefasGantt != null){
+14 recebe_tarefaGantt = jsonTarefasGantt;
+15 }
+16  
+17 // FUNÇÃO QUE REALIZARÁ A ANÁLISE DE PROJETOS QUE ESTÃO SELECIONADOS(CHECKED)
+18 checked_project = [];
+19 for(i=0;i<recebe_projetoGantt.length;i++){
+20  
+21 if(document.getElementById("cb_prj"+recebe_projetoGantt[i]['prj_id']+"").checked){
+22 checked_project.push(recebe_projetoGantt[i]['prj_id']);
+23 }
+24 }
+25  
+26 vetor_preparaProjetos = [];
+27 nomeInterdependencia = '';
+28 if(recebe_projetoGantt != ''){
+29	 if(recebe_tarefaGantt != ''){
+30 
+31		 for(i=0; i<recebe_projetoGantt.length;i++){
+32			 for(y=0;y<checked_project.length;y++){
+33					 if(checked_project[y] == recebe_projetoGantt[i]['prj_id']){
+34  
+35  
+36						 for(x=0;x<recebe_tarefaGantt.length;x++){
+37								 if(recebe_tarefaGantt[x]['trf_id'] == recebe_tarefaGantt[x]['trf_interdependencia']){
+38								 nomeInterdependencia = recebe_tarefaGantt[x]['trf_name'];
+39									 }
+40							 if(recebe_tarefaGantt[x]['fk_prj_id'] == recebe_projetoGantt[i]['prj_id']){
+41  
+42								 linha = [recebe_tarefaGantt[x]['trf_id'],  recebe_tarefaGantt[x]['trf_name'],recebe_tarefaGantt[x]['trf_datainicial'], recebe_tarefaGantt[x]['trf_datafinal'], recebe_tarefaGantt[x]['trf_interdependencia'], recebe_tarefaGantt[x]['trf_progresso'], recebe_projetoGantt[i]['prj_color'] ];
+43								 vetor_preparaProjetos.push(linha);
+44								 }
+45						 }
+46				 }
+47			 }
+48		 }
+49  
+50 if(vetor_preparaProjetos != ''){
+51 tasks = []; //CRIA VETOR PARA RECEBER JSON
+52  
+53 // REALIZA O ENVIO DOS DADOS DOS PROJETOS PARA A API PARA QUE SEJA RETORNADO OS PARÂMETROS NECESSÁRIOS PARA IMPLEMENTAR NO GRÁFICO
+54 for(i = 0; i< vetor_preparaProjetos.length;i++){ //FAZ A VARREDURA NO VETOR PARA CRIAR JSON
+55						 tasks.push({ //CARREGA O JSON COM AS INFORMAÇÕES NECESSÁRIAS PARA CARREGAR O GRÁFICO GANTT
+56						 'id': 'Task'+vetor_preparaProjetos[i][0],
+57						 'name': vetor_preparaProjetos[i][1],
+58						 'start': vetor_preparaProjetos[i][2],
+59						 'end': vetor_preparaProjetos[i][3],
+60						 'dependencies': 'Task'+vetor_preparaProjetos[i][4],
+61						 'progress': vetor_preparaProjetos[i][5], 
+62						 'custom_class': 'tcolor-'+vetor_preparaProjetos[i][0] 
+63					 });
+64  
+65 }
+66 //console.log("TASKS: "+tasks+""); //TESTE DE INTEGRIDADE
+67 gantt = new Gantt('#gantt', tasks, { 
+68 on_click: function (task) {
+69 console.log(task);
+70 document.querySelector('style').innerHTML = '';
+71  
+72 cores_tarefas();
+73 },
+74 on_date_change: function(task, start, end) {
+75 console.log(recebe_tarefaGantt)
+76 console.log(task, start, end);
+77 const trf_id = parseInt(task.id.replace("Task",""))
+78 const tarefa = recebe_tarefaGantt.filter(_ => _.trf_id == trf_id)[0]
+79 tarefa.trf_datainicial = start.toISOString().split("T")[0]
+80 tarefa.trf_datafinal = end.toISOString().split("T")[0]
+81 putAtualizaTarefa(tarefa)
+82  
+83 },
+84 on_progress_change: function(task, progress) {
+85 console.log(task, progress);
+86 },
+87 on_view_change: function(mode) {
+88 console.log(mode);
+89 },
+90 custom_popup_html: function(task) {
+91  
+92 // the task object will contain the updated
+93 // dates and progress value
+94  
+95 //const end_date = task._end.format('MMM D');
+96 nome_pessoa_gantt = '';
+97	 for(i=0;i<recebe_tarefaGantt.length;i++){
+98					 if(task.name ==  recebe_tarefaGantt[i]['trf_name']){
+99					 dt_final_tarefa = recebe_tarefaGantt[i]['trf_datafinal'];
+100					 cod_tarefa_gantt = recebe_tarefaGantt[i]['trf_id'];
+101					 for(x=0;x<recebe_distribuicaoGantt.length;x++){
+102							 if(recebe_distribuicaoGantt[x]['fk_trf_id'] == cod_tarefa_gantt){
+103							 cod_pessoa_gantt = recebe_distribuicaoGantt[x]['fk_pes_id'];
+104					  
+105									 for(y=0;y<recebe_pessoasGantt.length;y++){
+106											 if(cod_pessoa_gantt == recebe_pessoasGantt[y]['pes_id']){
+107											 nome_pessoa_gantt = recebe_pessoasGantt[y]['pes_nome'];
+108											 }
+109									 }
+110						 }
+111					 }
+112					  
+113 }
+114 }
+115 split_dt_final_tarefa = dt_final_tarefa.split('-');
+116 reverse_dt_final_tarefa = split_dt_final_tarefa.reverse();
+117 join_dt_final_tarefa = reverse_dt_final_tarefa.join('-');
+118  
+119  
+120 return `
+121 <div class="details-container">
+122 <label>${task.name}</label>
+123 <p>Expected to finish by ${join_dt_final_tarefa}</p>
+124 <p>${task.progress}% completed!</p>
+125 <p>Pessoa: ${nome_pessoa_gantt} </p>
+126 </div>
+127 `;
+128 }
+129 });
+130  
+131 cores_tarefas();
+132  
+133 }
+134 }
+135 }
+136}
 ```
 
 Para criar esta integração foi bastante dificultoso, pois foi necessário aprender como trabalhar
@@ -339,7 +348,7 @@ EER; Desenho da arquitetura do projeto; Burndown das sprints; Vídeos explicativ
 ilustrando as telas da aplicação;
 
 
-<b>Aprendizados Efetivos</b>
+## 🧠 <b>Aprendizados Efetivos</b>
 
 * Aprendizado no que se trata uma API:
 
@@ -371,106 +380,106 @@ banco de dados, utilizando credenciais de acesso da aplicação como segurança.
 		Um dos desafios mais interessantes que eu enfrentei com o trabalho de desenvolver o Front-End, foi, sem dúvida, criar os projetos, inserir as tarefas nesse projeto e diferenciá-los com cores, para que fosse possível diferenciar um projeto do outro com uma maior facilidade. Um exemplo do código que foi utilizado para criar essa funcionalidade foi a função:
 
 ```javascript
-function add_prj_menu_esquerdo(jsonprj){
- document.getElementById("prj_cadastrados").innerHTML = ''; 
- vetor_prjcadastrados = [];
-  
- for(i = 0;i<json.length;i++){
- /*CARREGA VETOR PARA CADASTRAR PROJETO NO MENU LATERAL ESQUERDO */
- 
- //CRIA VALOR PARA ADICIONAR NA DIV "prj_cadastrados"
- add_btn_prj_menu_esquerdo = [json[i]['prj_id'],"<div class='div_shadow' 
- style='background-color:"+json[i]['prj_color']+"'><input id='cb_prj"+json[i]['prj_id']+"' 
- type='checkbox' ><button id='btn_prj"+json[i]['prj_id']+"' 
- onClick='expandeTrf(this.id);dadosProjeto(this.id);'class='btn_shadow0' style='background-
- color:"+json[i]['prj_color']+"'>"+json[i]['prj_nome']+"</button></div> "];
-
-//ADICIONA LINHA PARA CRIAÇÃO DO BTN DE PROJETO
- vetor_prjcadastrados.push(add_btn_prj_menu_esquerdo);
- ///////////////////
- }
- /*ENVIA PROJETO AO MENU LATERAL ESQUERDO*/
-
-//ZERA DIV PARA NOVOS BUTTONS
- document.getElementById("prj_cadastrados").innerHTML = ''; 
-
-// VARREDURA DO VETOR CRIADO COM OS INSERTS PARA A DIV
- for(i = 0; i<vetor_prjcadastrados.length;i++){ 
-	//ADICIONA OS INSERTS NA DIV 
-	 document.getElementById("prj_cadastrados").innerHTML +=  vetor_prjcadastrados[i][1];
-  //CRIA NOVA DIV PARA RECEBER TAREFAS CORRESPONDENTES AO PROJETO CRIADO
-	 novaDivTrf = document.createElement("div");
-  //NOME DA DIV PARA RECEBER AS TAREFAS
-	 novaDivTrf.id = "trf_cadastradas_prj"+vetor_prjcadastrados[i][0]+"";
-  //ADICIONA A DIV ABAIXO DO PROJETO CRIADO
-	 document.getElementById("prj_cadastrados").appendChild(novaDivTrf);
- ////////////////////////////////// 
- }
-  
-//FUNÇÃO ABAIXO INSERE AS TAREFAS NO PROJETO SELECIONADO PASSANDO O JSON COMO PARÂMETRO
- vetorTrfCadastrados(json, null); 
-}	
+1 function add_prj_menu_esquerdo(jsonprj){
+2 document.getElementById("prj_cadastrados").innerHTML = ''; 
+3 vetor_prjcadastrados = [];
+4  
+5 for(i = 0;i<json.length;i++){
+6 /*CARREGA VETOR PARA CADASTRAR PROJETO NO MENU LATERAL ESQUERDO */
+7 
+8 //CRIA VALOR PARA ADICIONAR NA DIV "prj_cadastrados"
+9 add_btn_prj_menu_esquerdo = [json[i]['prj_id'],"<div class='div_shadow' 
+10 style='background-color:"+json[i]['prj_color']+"'><input id='cb_prj"+json[i]['prj_id']+"' 
+11 type='checkbox' ><button id='btn_prj"+json[i]['prj_id']+"' 
+12 onClick='expandeTrf(this.id);dadosProjeto(this.id);'class='btn_shadow0' style='background-
+13 color:"+json[i]['prj_color']+"'>"+json[i]['prj_nome']+"</button></div> "];
+14
+15 //ADICIONA LINHA PARA CRIAÇÃO DO BTN DE PROJETO
+16 vetor_prjcadastrados.push(add_btn_prj_menu_esquerdo);
+17 ///////////////////
+18 }
+19 /*ENVIA PROJETO AO MENU LATERAL ESQUERDO*/
+20
+21 //ZERA DIV PARA NOVOS BUTTONS
+22 document.getElementById("prj_cadastrados").innerHTML = ''; 
+23
+24 // VARREDURA DO VETOR CRIADO COM OS INSERTS PARA A DIV
+25 for(i = 0; i<vetor_prjcadastrados.length;i++){ 
+26	//ADICIONA OS INSERTS NA DIV 
+27	 document.getElementById("prj_cadastrados").innerHTML +=  vetor_prjcadastrados[i][1];
+28  //CRIA NOVA DIV PARA RECEBER TAREFAS CORRESPONDENTES AO PROJETO CRIADO
+29	 novaDivTrf = document.createElement("div");
+30  //NOME DA DIV PARA RECEBER AS TAREFAS
+31	 novaDivTrf.id = "trf_cadastradas_prj"+vetor_prjcadastrados[i][0]+"";
+32  //ADICIONA A DIV ABAIXO DO PROJETO CRIADO
+33	 document.getElementById("prj_cadastrados").appendChild(novaDivTrf);
+34 ////////////////////////////////// 
+35 }
+36  
+37 //FUNÇÃO ABAIXO INSERE AS TAREFAS NO PROJETO SELECIONADO PASSANDO O JSON COMO PARÂMETRO
+38 vetorTrfCadastrados(json, null); 
+39 }	
 ```
 Nesta etapa, é realizada a inserção das tarefas no projeto criado acima:
 ```javascript
-/*EXPANDE TAREFAS MENU CENTRAL ESQUERDO*/
-recebe_vetorprojeto = [];
-recebe_vetortarefa = [];
-///FUNÇÃO ATRIBUÍDA PARA O BTN GRAVAR TAREFA
-function vetorTrfCadastrados(vetor_projeto, vetor_tarefa){
- vetor_trfcadastrados = [];
- if(vetor_projeto != null){
- recebe_vetorprojeto = vetor_projeto;
- }
- if(vetor_tarefa != null){
- recebe_vetortarefa = vetor_tarefa;
- }
-if(recebe_vetorprojeto != '' && recebe_vetortarefa != ''){
- for(i=0;i<recebe_vetorprojeto.length;i++){//VARREDURA NOS PROJETOS CADASTRADOS
- recebeCodPrj = recebe_vetorprojeto[i]['prj_id'];  //SELECIONA O CODIGO DO PROJETO 
- for(x=0; x<recebe_vetortarefa.length;x++){ //VARREDURA NAS TAREFAS CADASTRADAS
- if(recebeCodPrj == recebe_vetortarefa[x]['fk_prj_id']){//VALIDA O CODIGO DO PROJETO DO CADASTRO DE PROJETO AO CODIGO DO PROJETO NO CADASTRO DE TAREFA E CRIA UM VETOR PARA INSERIR NA DIV CRIADA.
-  
- codTrf = recebe_vetortarefa[x]['trf_id']; //CODIGO DA TAREFA - TABELA TAREFA
-  
- recebeNomeTrf = recebe_vetortarefa[x]['trf_name']; //NOME DA TAREFA - TABELA TAREFA 
- corProjeto = recebe_vetorprojeto[i]['prj_color']; //COR DO PROJETO - TABELA PROJETO 
- add_btn_trf_menu_esquerdo = [recebeCodPrj,"<button id='btn_trf"+codTrf+"' onClick='dadosTarefa(this.id)' class='btn_shadow3' style='border-color:"+corProjeto+"'>"+recebeNomeTrf+"</button>"]; // CRIA LINHA PARA NOVOS BOTÕES DE TAREFAS, ABAIXO DO PROJETO CORRESPONDENTE
-  
- vetor_trfcadastrados.push(add_btn_trf_menu_esquerdo);//ADICIONA NO VETOR AS TAREFAS CADASTRADAS E SEUS RESPECTIVOS BOTÕES, COM O ID DO PROJETO NO ÍNDICE 0 
- } 
- } 
- }
- //console.log(vetor_trfcadastrados);//VERIFICA INTEGRIDADE DO VETOR 
-}
-}
+1 /*EXPANDE TAREFAS MENU CENTRAL ESQUERDO*/
+2 recebe_vetorprojeto = [];
+3 recebe_vetortarefa = [];
+4 ///FUNÇÃO ATRIBUÍDA PARA O BTN GRAVAR TAREFA
+5 function vetorTrfCadastrados(vetor_projeto, vetor_tarefa){
+6  vetor_trfcadastrados = [];
+7  if(vetor_projeto != null){
+8  recebe_vetorprojeto = vetor_projeto;
+9  }
+10 if(vetor_tarefa != null){
+11 recebe_vetortarefa = vetor_tarefa;
+12 }
+13 if(recebe_vetorprojeto != '' && recebe_vetortarefa != ''){
+14 for(i=0;i<recebe_vetorprojeto.length;i++){//VARREDURA NOS PROJETOS CADASTRADOS
+15 recebeCodPrj = recebe_vetorprojeto[i]['prj_id'];  //SELECIONA O CODIGO DO PROJETO 
+16 for(x=0; x<recebe_vetortarefa.length;x++){ //VARREDURA NAS TAREFAS CADASTRADAS
+17 if(recebeCodPrj == recebe_vetortarefa[x]['fk_prj_id']){//VALIDA O CODIGO DO PROJETO DO CADASTRO DE PROJETO AO CODIGO DO PROJETO NO CADASTRO DE TAREFA E CRIA UM VETOR PARA INSERIR NA DIV CRIADA.
+18  
+19 codTrf = recebe_vetortarefa[x]['trf_id']; //CODIGO DA TAREFA - TABELA TAREFA
+20  
+21 recebeNomeTrf = recebe_vetortarefa[x]['trf_name']; //NOME DA TAREFA - TABELA TAREFA 
+22 corProjeto = recebe_vetorprojeto[i]['prj_color']; //COR DO PROJETO - TABELA PROJETO 
+23 add_btn_trf_menu_esquerdo = [recebeCodPrj,"<button id='btn_trf"+codTrf+"' onClick='dadosTarefa(this.id)' class='btn_shadow3' style='border-color:"+corProjeto+"'>"+recebeNomeTrf+"</button>"]; // CRIA LINHA PARA NOVOS BOTÕES DE TAREFAS, ABAIXO DO PROJETO CORRESPONDENTE
+24  
+25 vetor_trfcadastrados.push(add_btn_trf_menu_esquerdo);//ADICIONA NO VETOR AS TAREFAS CADASTRADAS E SEUS RESPECTIVOS BOTÕES, COM O ID DO PROJETO NO ÍNDICE 0 
+26 } 
+27 } 
+28 }
+29 //console.log(vetor_trfcadastrados);//VERIFICA INTEGRIDADE DO VETOR 
+30 }
+31 }	
 
 ```
 
 Esta função expande o projeto criado, mostrando quais tarefas foram inseridas nele.
 ```javascript
-///FUNÇÃO ATRIBUÍDA PARA O BTN PROJETO NO MENU LATERAL ESQUERDO
-function expandeTrf(nomeBtn){
-  
- divideBtn = nomeBtn.substr(7);//REMOVE E DEIXA APENAS O NÚMERO DE IDENTIFICAÇÃO DO BOTÃO DE CADA TAREFA "btn_trf'num exemplo'"
-  
- selecionaDiv = document.getElementById('trf_cadastradas_prj'+divideBtn+'').textContent;//SELECIONA A DIV DE CADA PROJETO E VERIFICA SE TEM CONTEÚDO DENTRO
- if(selecionaDiv == ''){//CASO NÃO TENHA CONTEÚDO
-  
- for(i=0;i<vetor_trfcadastrados.length;i++){//FAZ VARREDURA NOS BOTÕES DAS TAREFAS
-  
-  
- if(divideBtn == vetor_trfcadastrados[i][0]){ //CASO O NÚMERO DE IDENTIFICAÇÃO DO BTN DA TAREFA SEJA IGUAL AO ID DE CADA PROJETO, É ADICIONADO O BOTÃO NA DIV CORRESPONDENTE
-  
- document.getElementById('trf_cadastradas_prj'+divideBtn+'').innerHTML += vetor_trfcadastrados[i][1];//ADICIONA OS BOTÕES DAS TAREFAS NAS DIV'S DOS PROJETOS CORRESPONDENTES
- } 
- }
- }else{
- document.getElementById('trf_cadastradas_prj'+divideBtn+'').remove() //CASO TENHA CONTEÚDO NA DIV, ELE É ELIMINADO. ISSO FOI FEITO PARA CRIAR O RECUO.
- add_prj_menu_esquerdo();//ADICIONA NOVAMENTE A DIV DO PROJETO
- getAllProjects();
- }
-}
+1 ///FUNÇÃO ATRIBUÍDA PARA O BTN PROJETO NO MENU LATERAL ESQUERDO
+2 function expandeTrf(nomeBtn){
+3  
+4  divideBtn = nomeBtn.substr(7);//REMOVE E DEIXA APENAS O NÚMERO DE IDENTIFICAÇÃO DO BOTÃO DE CADA TAREFA "btn_trf'num exemplo'"
+5   
+6  selecionaDiv = document.getElementById('trf_cadastradas_prj'+divideBtn+'').textContent;//SELECIONA A DIV DE CADA PROJETO E VERIFICA SE TEM CONTEÚDO DENTRO
+7  if(selecionaDiv == ''){//CASO NÃO TENHA CONTEÚDO
+8   
+9  for(i=0;i<vetor_trfcadastrados.length;i++){//FAZ VARREDURA NOS BOTÕES DAS TAREFAS
+10  
+11  
+12 if(divideBtn == vetor_trfcadastrados[i][0]){ //CASO O NÚMERO DE IDENTIFICAÇÃO DO BTN DA TAREFA SEJA IGUAL AO ID DE CADA PROJETO, É ADICIONADO O BOTÃO NA DIV CORRESPONDENTE
+13  
+14 document.getElementById('trf_cadastradas_prj'+divideBtn+'').innerHTML += vetor_trfcadastrados[i][1];//ADICIONA OS BOTÕES DAS TAREFAS NAS DIV'S DOS PROJETOS CORRESPONDENTES
+15 } 
+16 }
+17 }else{
+18 document.getElementById('trf_cadastradas_prj'+divideBtn+'').remove() //CASO TENHA CONTEÚDO NA DIV, ELE É ELIMINADO. ISSO FOI FEITO PARA CRIAR O RECUO.
+19 add_prj_menu_esquerdo();//ADICIONA NOVAMENTE A DIV DO PROJETO
+20 getAllProjects();
+21 }
+22 }
 ```
 * Aprendizado em Django Rest Framework:
 
