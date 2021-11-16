@@ -1,8 +1,6 @@
-# 2º Semestre:
+# Projeto Integrador 2º Semestre
 
-## <B>Projeto GANTT PLANNER - Grupo PHPYTHON:</b>
-
-## :orange_book:  <b>Desafio da API:</b>
+## :orange_book: <b>Desafio do PI 1º Semestre:</b>
 
 O desenvolvimento desse projeto partiu de uma demanda da empresa Necto, a partir de seu CEO Carlos Eduardo, que era de uma ferramenta que fosse fácil de mexer, que fosse portátil e ao mesmo tempo flexível para auxiliar no planejamento de seus projetos. Manipular um gráfico de Gantt afim de conquistar esses objetivos será o cerne do projeto. Outro fator decisivo para o desenvolvimento é a limitação que outras ferramentas semelhantes à do nosso projeto que impossibilitam ou dificultam muito a visualização da empresa como um todo, afim de conseguir conciliar o desenvolvimento de vários projetos simultaneamente com a distribuição da equipe da melhor forma possível, além de ter uma melhor distribuição dos recursos financeiros.
 
