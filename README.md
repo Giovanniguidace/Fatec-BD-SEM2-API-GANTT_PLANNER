@@ -1,6 +1,4 @@
-
-
-# <h3>2º Semestre:</h3>
+# 2º Semestre:
 
 ## <B>Projeto GANTT PLANNER - Grupo PHPYTHON:</b>
 
